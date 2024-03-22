@@ -1,5 +1,6 @@
-import type {UserConfig} from '@commitlint/types'; 
-import {RuleConfigSeverity} from '@commitlint/types'; 
+import type { UserConfig } from '@commitlint/types';
+
+import { RuleConfigSeverity } from '@commitlint/types';
 
 const CommitLintConfigurations: UserConfig = {
   extends: ['@commitlint/config-conventional'], // lint 的基底檔案為 @commitlint/config-conventional 裡的規則
@@ -19,11 +20,11 @@ const CommitLintConfigurations: UserConfig = {
         'refactor',
         'revert',
         'style',
-        'test'
-      ]
-    ]
-  }
+        'test',
+      ],
+    ],
+  },
 
-}
+};
 
 export default CommitLintConfigurations;
