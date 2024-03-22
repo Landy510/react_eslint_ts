@@ -22,7 +22,8 @@
   },
   "include": [
     ".eslintrc.cjs",
-    "src"
+    "src",
+    "commitlint.config.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
