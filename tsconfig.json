@@ -21,9 +21,9 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": [
+    "src/**/*",
     ".eslintrc.cjs",
-    "src",
-    "commitlint.config.ts"
-  ],
-  "references": [{ "path": "./tsconfig.node.json" }]
+    "commitlint.config.ts",
+    "vite.config.ts"
+  ]
 }
