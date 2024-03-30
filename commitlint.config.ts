@@ -9,10 +9,8 @@ const CommitLintConfigurations: UserConfig = {
       RuleConfigSeverity.Error,
       'always',
       [
-        'build',
-        'core',
         'chore',
-        'ci',
+        'core',
         'docs',
         'feat',
         'fix',
