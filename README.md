@@ -11,6 +11,7 @@
 
 ### 使用技術
 - React - v18
+- React router - v6
 - TypeScript
 
 ### 開發環境需求
@@ -30,6 +31,7 @@
 │   │   └── pages                 # 主要開發的功能頁面
 │   ├── layout                    # layout 首頁
 │   ├── shared                    # 共用模組 (非 singleton)
+│   ├── routes                    # 路由配置
 │   ├── assets                    # 靜態資源
 │   │   ├── i18n                  # 多國語系
 │   │   ├── images                # 圖片
