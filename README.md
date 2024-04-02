@@ -21,23 +21,23 @@
 ### 目錄架構
 ```sh
 .
-├── .husky # 設定 git hook
-├── dist   # 專案編譯後的路徑
-├── node_modules # 存放安裝的套件
-├── src    # 原始碼
-│   ├── core  # 存放核心模組 (singleton)
-│   ├── features # 存放功能模組
-│   │   └── pages # 主要開發的功能頁面
-│   ├── layout # layout 首頁
-│   ├── shared # 共用模組 (非 singleton)
-│   ├── assets # 靜態資源
-│   │   ├── i18n # 多國語系
-│   │   ├── images # 圖片
-│   │   └── styles # scss
-│   └── environments # 各環境設定檔
-├── .editorconfig # VSCode 編譯格式設定檔
-├── .eslintrc.cjs # eslint 設定檔
-├── .gitattributes # git 環境格式設定檔
+├── .husky                        # 設定 git hook
+├── dist                          # 專案編譯後的路徑
+├── node_modules                  # 存放安裝的套件
+├── src                           # 原始碼
+│   ├── core                      # 存放核心模組 (singleton)
+│   ├── features                  # 存放功能模組
+│   │   └── pages                 # 主要開發的功能頁面
+│   ├── layout                    # layout 首頁
+│   ├── shared                    # 共用模組 (非 singleton)
+│   ├── assets                    # 靜態資源
+│   │   ├── i18n                  # 多國語系
+│   │   ├── images                # 圖片
+│   │   └── styles                # scss
+│   └── environments              # 各環境設定檔
+├── .editorconfig                 # VSCode 編譯格式設定檔
+├── .eslintrc.cjs                 # eslint 設定檔
+├── .gitattributes                # git 環境格式設定檔
 ├── .gitignore                    # git 忽略配置  
 ├── .nvmrc                        # Node.js 版本配置
 ├── CODING-GUIDLINES.md           # 程式風格規定
