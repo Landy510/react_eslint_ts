@@ -39,5 +39,13 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-absolute-path': 'off',
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    /* no-use-before-define | START */
+    'no-use-before-define': ['error', {
+      functions: false,
+    }],
+    '@typescript-eslint/no-use-before-define': ['error', {
+      functions: false,
+    }],
+    /* END */
   },
 };
