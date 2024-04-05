@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es2020: true, // set to the same value of the property 'compilerOption.target' in tsconfig.json
   },
   extends: [
     'airbnb',
@@ -47,5 +47,10 @@ module.exports = {
       functions: false,
     }],
     /* END */
+  },
+  settings: {
+    react: {
+      version: 'detect', // to tell eslint-plugin-react which version of react is being used
+    },
   },
 };
